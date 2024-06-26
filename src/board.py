@@ -40,7 +40,6 @@ class Board:
                         # Create squares of the new move
                         initial = Square(row, col)
                         final = Square(possible_move_row, possible_move_col)
-
                         # Create and append new move
                         move = Move(initial, final)
                         piece.add_move(move)
